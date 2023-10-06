@@ -8,9 +8,7 @@ Description automatically generated with medium confidence](Aspose.Words.0dd02c3
 
 2-start the server as shown below to start receiving the readings of wifi signals from the esp32 
 
-![A picture containing text, font, screenshot
-
-Description automatically generated](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.002.png)
+![](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.002.png)
 
 
 
