@@ -14,6 +14,7 @@ Note :don’t forget to change the network parameters and server URL according t
 
 
 ![](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.003.png)
+
 -you can refresh the page to see the updated positions instantly .
 
 4-Add as many Wi-Fi data as you wish by saving them on the following part of html file in public directory.
