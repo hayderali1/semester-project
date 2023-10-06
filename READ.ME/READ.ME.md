@@ -2,9 +2,7 @@
 
 Note :don’t forget to change the network parameters and server URL according to you machine .
 
-![A screenshot of a computer program
-
-Description automatically generated with medium confidence](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.001.png)
+![](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.001.png)
 
 2-start the server as shown below to start receiving the readings of wifi signals from the esp32 
 
@@ -15,9 +13,7 @@ Description automatically generated with medium confidence](Aspose.Words.0dd02c3
 3-open your localhost on port 8081 and see a simulation of the tracked devices by their Wi-Fi SSID  and the signal strength.
 
 
-![A screenshot of a computer
-
-Description automatically generated](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.003.png)-you can refresh the page to see the updated positions instantly .
+![](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.003.png)-you can refresh the page to see the updated positions instantly .
 
 4-Add as many Wi-Fi data as you wish by saving them on the following part of html file in public directory.
 
