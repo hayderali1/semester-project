@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wi-Fi Tracking</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="chart"></canvas>
+
+    <script>
+      // Get the chart canvas element
+      const chartCanvas = document.getElementById('chart');
+      const ctx = chartCanvas.getContext('2d');
+
+      // Set canvas size
+      chartCanvas.width = 500;
+      chartCanvas.height = 500;
+
+      // Function to update the chart with new data
+      function updateChart(ssid, signalStrength) {
+        // Scale signal strength to fit canvas size
+        const x = (signalStrength + 100) * (chartCanvas.width / 200);
+        const y = Math.random() * chartCanvas.height;
+
+        // Draw a point on the canvas
+        ctx.fillStyle = 'blue';
+        ctx.beginPath();
+        ctx.arc(x, y, 5, 0, 2 * Math.PI);
+        ctx.fill();
+
+        // Display SSID near the point
+        ctx.fillStyle = 'black';
+        ctx.font = '12px Arial';
+        ctx.fillText(ssid, x + 8, y - 5);
+      }
+
+      // (replace with your actual data)
+      const wifiData = [
+        { ssid: 'Zyxel_D9B1', signalStrength: -46 },
+        { ssid: 'WiFi2', signalStrength: -70 },
+        { ssid: 'WiFi3', signalStrength: -60 },
+        // Add more data as needed
+      ];
+
+      // Update the chart for each data point
+      wifiData.forEach(item => {
+        updateChart(item.ssid, item.signalStrength);
+      });
+    </script>
+  </body>
+</html>
