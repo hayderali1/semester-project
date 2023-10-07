@@ -1,4 +1,6 @@
-﻿1-copy the code in the sketch file into your Arduino ide and upload the code to your esp32 card as shown below :
+﻿## instructions
+
+1-copy the code in the sketch file into your Arduino ide and upload the code to your esp32 card as shown below :
 
 Note :don’t forget to change the network parameters and server URL according to you machine .
 
