@@ -9,8 +9,6 @@ Note :don’t forget to change the network parameters and server URL according t
 
 ![](Aspose.Words.0dd02c37-4534-4c5c-af1e-f455dee306ac.002.png)
 
-
-
 3-open your localhost on port 8081 and see a simulation of the tracked devices by their Wi-Fi SSID  and the signal strength.
 
 
