@@ -6,7 +6,7 @@ const char* ssid = "Zyxel_D9B1";
 const char* password = "UNHTF48UEY";
 const char* serverUrl = "http://192.168.1.140:8081/update-location"; // Replace with your server URL
 const char* deviceName = "MobileESP32"; // Your device's name
-const uint16_t customServiceUUID = 0x1234; // Replace with your custom service UUID(Universally Unique Identifier)
+const uint16_t customServiceUUID = 0x1234; // Replace with your custom service UUID (Universally Unique Identifier)
 
 BLEAdvertising* pAdvertising;
 
@@ -73,4 +73,5 @@ void sendLocationData(float latitude, float longitude) {
     }
     
     http.end();
+    
 }
